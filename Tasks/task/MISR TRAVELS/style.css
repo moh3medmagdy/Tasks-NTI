@@ -1,0 +1,20 @@
+body{
+    background-color: #102130;
+}
+.text h1{
+   color: #9B792E;
+}
+
+.text p{
+    color: gainsboro;
+}
+
+.item{background-color: #3F5C8E;}
+
+.item img{
+    width: 200px;
+}
+
+
+
+

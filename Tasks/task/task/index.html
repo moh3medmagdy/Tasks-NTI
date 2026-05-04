@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <table>
+        <tr>
+            <td width="50%">
+                <img src="images/doctor.jpg" alt="doctor" width="100%">
+            </td>
+            <td width="50%">
+                <h1 style="text-align: center; ">
+                    Doctor Appointment Form
+                </h1>
+                <hr color="red">
+
+                <br>
+                <br>
+
+               <form action="">
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <label for="date" >Appointment <br> Date</label>
+                                            <br><br>
+                                           
+                                        </td>
+                                        <td>
+                                            <input type="date" id="date" name="age">
+                                            <br><br> 
+                                         </td>
+                                        
+                                    </tr>
+                               
+                                    <tr>
+                                        <td>
+                                            <label for="time" >Appointment <br> Time</label>
+                                            <br><br>
+                                           
+                                        </td>
+                                        <td>
+                                            <input type="time" id="time" name="tim">
+                                            <br><br> 
+                                         </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>
+                                            <label>name</label>
+                                            
+                                        </td>
+                                        <td>
+                                            <input type="text" placeholder="First"  name="firstName">
+                                           
+                                        </td>
+                                        <td>
+                                            <input type="text" placeholder="First"  name="lastName">
+                                        </td>
+                                       
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <br>
+                                            <label> Gender </label>
+                                            <br><br><br>
+                                           
+                                        </td>
+                                        <td>
+                                            <label>male
+                                                <input type="radio"  name="gender" value="male">
+                                            </label>
+                                            <label>female
+                                                <input type="radio"  name="gender" value="female">
+                                            </label>
+                                            <br><br> 
+                                         </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            
+                                            <label> phone </label>
+                                            <br><br>
+                                           
+                                        </td>
+                                        <td>
+                                           <label>
+                                            <input type="tel" placeholder="#####" name="phone">
+                                           </label>
+                                            <br><br> 
+                                         </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td>
+                                            <label>Address</label>
+                                            
+                                        </td>
+                                        <td>
+                                            <input type="text" placeholder="City"  name="city">
+                                           
+                                        </td>
+                                        <td>
+                                            <input type="text" placeholder="State"  name="State">
+                                        </td>
+                                    </tr>
+
+                                    <tr>
+                                        <td> <br> Your Query</td>
+                                        <td colspan="2">
+                                            <br> <br>
+                                            <textarea cols="30" rows="4"  name="area"></textarea>
+                                            <br> <br>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>Appointment <br> Type</td>
+                                        <td colspan="2">Select which appointment type(s) you require
+                                            <br>
+                                            <label>
+                                                <input type="checkbox" value="Cervix checkup" name="list">
+                                                Cervix checkup
+                                                <br>
+                                            </label>
+                                            <label>
+                                               
+                                                <input type="checkbox" value="Heart checkup" name="list">
+                                                Heart checkup
+                                                <br>
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" value="Eye check-up" name="list">
+                                                Eye check-up
+                                                <br>
+                                            </label>
+                                            <label>
+                                                <input type="checkbox" value="Hearing Test" name="list">
+                                                Hearing Test
+                                                <br>
+                                            </label>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+                                        <td>
+                                            <br>
+                                            <button type="submit">send</button>
+                                        </td>
+                                    </tr>
+                                </table>
+               </form>
+               
+            </td>
+        </tr>
+    </table>
+  </body>
+</html>
